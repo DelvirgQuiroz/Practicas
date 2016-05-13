@@ -1,0 +1,100 @@
+/*selecion universal*/
+/*margin :0; aplicar a todo*/
+/*margin: 0 0; el primer aplica tomp-bottom y el segundo right-left*/
+/*margin: 0 0 0;top right-left bottom*/
+/* margin 0 0 0 0; top, right, left, bottom */
+/*margin-top, margin-right, margin-bottom,margin-left*/
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+#encabezado{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-content: center;
+}
+
+#encabezado figure{
+margin: 0 ;
+}
+
+#titulo * {
+    margin: 0;
+}
+#encabezado h1{font-size: 1.2em;}
+#encabezado h2{font-size: 1em;}
+#encabezado h3{font-size: 0.9em;}
+#encabezado h4{font-size: 0.8em;}
+
+
+#menu{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    
+}
+#menu li {
+    list-style-type: none;
+    padding: 0;
+}
+#menu>ul>li {
+    display: inline-block;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+#menu>ul>li a{
+    padding: 10px;
+    background-color: darkgray
+}
+#menu li ul{
+    display: none;
+}
+
+#menu>ul>li a:hover{
+    padding:  10px;
+    background-color: lightgray;
+    transition: 0,5s;
+}
+
+#contenido{
+    
+}
+#Nota-Principal{
+    
+    height:  360px;
+    margin:  20px; 
+    /*box-shadow: horizalta vertical blur color*/
+    box-shadow: 0 0 15px grey;
+}
+#Nota-Principal img{
+    border: 10px solid white;
+    
+    
+}
+#Nota-Secundaria{
+    height:  300px;
+    width: 700px;
+    display: inline-block;
+    float: left;
+    background-color: darkgrey;
+}
+#publicidad{
+    height:  300px;
+    width: 220px;
+    display: inline-block;
+    float: right;
+    background-color: darkgrey;
+}
+#Pie{
+    height: 150px;
+    clear: both;
+    background-color: darkgrey;
+}
+  
+

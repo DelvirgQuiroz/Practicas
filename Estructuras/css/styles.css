@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+
+<section id="encabezado">selección de encabezado</section>
+<nav id="navbar"></nav> 
+<section id="contenido">
+<section id="nota primaria">nota primario</section>
+<section id="nota secundaia">nota secundaria</section>
+<section id="publicidad">publicidad</section>
+</section>
+ 
+<footer id="pie de pagina"></footer>
+</body>
+</html>
